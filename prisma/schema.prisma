@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "mysql"
-  url = env("DATABASE_URL")
+  url = "mysql://aibg465n3smurpuaeuzd:pscale_pw_harUgGQxD8HruoswjFPtAgGkQHBKXUndF6K48Xz8y7p@aws.connect.psdb.cloud/ecomerce-sparkmesh?sslaccept=strict"
   relationMode = "prisma"
 }
 
